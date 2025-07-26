@@ -1,6 +1,6 @@
 <!DOCTYPE>
 <html>  
-html>
+
 <html lang="en">
 <title>This is a registration form</title>
 <body>

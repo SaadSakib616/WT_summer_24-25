@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <titel>Task 3</titel>
+        <link rel="stylesheet" href="http://localhost:81/WT_summer_24-25/MID/task3/CSS/TASK_Style.CSS">
+        <script src="Task3_valid.js"></script>
+    </head>
+<body>
+    <from action="submit" onsubmit="validateForm()">
+        <h3>Donor Infromation</h3>
+
+        <label>First Name:</label>
+        <br>
+        
+        <input type="text" name="first_name" id="first_name">
+        <br>
+         <label>Last Name:</label>
+         <br>
+        
+    <input type="text" name="last_name" id="last_name">
+    <br>
+    <label>address:</label>
+    <br>
+     <input type="text" name="address" id="address">
+    <br>
+     <label>city:</label>
+    <br>
+     <input type="text" name="city" id="city">
+    <br>
+    <label>State:</label>
+    <br>
+    <select name="" id="">
+        <option value="">Select a state</option>
+         <option value="">Saudi Arebia</option>
+          <option value="">Bangladesh</option>
+          <option value="">Pakistan</option>
+    </select>
+    <br>
+       <label>Phone:</label>
+        <br>
+        
+        <input type="tel" name="phone" id="phone">
+        <br>  
+          <label>Email:</label>
+        <br>
+        
+        <input type="email" name="email" id="email">
+        <br>   
+
+          <label>Create Password:</label>
+        <br>
+        
+        <input type="password" name="password" id="password">
+        <br>
+          <label>Confirm Password:</label>
+        <br>
+        
+        <input type="password" name="confirm_password" id="confirm_password">
+        <br>
+         <label>Donation Amount:</label>
+        <br>
+        
+        <input type="radio" name="des" id="">None
+         <input type="radio" name="des" id="">500 BDT
+          <input type="radio" name="des" id="">1000 BDT
+           <input type="radio" name="des" id="">2000 BDT
+            <input type="radio" name="des" id="">5000 BDT
+             <input type="radio" name="des" id="">other
+        <br>
+           <label>Other Amount:</label>
+        <br>
+        
+        <input type="number" name="other_amount" min="3">
+        <br>
+        <br>
+        <input type="checkbox" name="" id="">I am interested in giving on a regular basis.
+        <br>
+        <br>
+        <h1>Additional Infromation</h1>
+         <input type="checkbox" name="" id="">I would like my gift to remain anonyomous .
+         <br>
+          <input type="checkbox" name="" id="">My employer offers a matching gift program .
+         <br>
+          <input type="checkbox" name="" id="">Please don't send a thank you latter .
+         <br>
+           <label>Comments:</label>
+        <br>
+        <textarea name="comments" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+        <input type="reset" value="Reset">
+        <button type="submit">Submit</button>
+        </from>
+
+        </body>
+        </html>
+
+
+
+
+
